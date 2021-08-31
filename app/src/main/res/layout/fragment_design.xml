@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/weather"
-        tools:context=".designFragment">
+        tools:context=".DesignFragment">
 
 
         <LinearLayout
@@ -56,6 +56,12 @@
                     android:text="7:30PM"
                     android:textSize="18dp" />
             </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
         </LinearLayout>
 
 

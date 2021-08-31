@@ -26,7 +26,7 @@
     </fragment>
     <fragment
         android:id="@+id/designFragment"
-        android:name="com.example.practice.designFragment"
+        android:name="com.example.practice.DesignFragment"
         android:label="fragment_design"
         tools:layout="@layout/fragment_design" >
         <action

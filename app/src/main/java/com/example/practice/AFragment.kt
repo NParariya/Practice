@@ -15,6 +15,7 @@ class AFragment : Fragment() {
     companion object {
         fun newInstance() = AFragment()
     }
+
     private lateinit var binding : FragmentABinding
 
     override fun onCreateView(
@@ -25,6 +26,7 @@ class AFragment : Fragment() {
 
         binding.btn1.setOnClickListener {
         it.findNavController().navigate(R.id.action)
+
 
         }
 
